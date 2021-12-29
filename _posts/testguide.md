@@ -5,6 +5,6 @@
 ```
 function test(){
     12333
-    console.log('test')
+    console.log('test123')
 }
 ```
