@@ -104,10 +104,6 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-collections:
-  tabs:
-    output: false
-    sort_by: order
 
 
 defaults:
