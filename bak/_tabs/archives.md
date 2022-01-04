@@ -1,7 +1,6 @@
 ---
 layout: archives
 title: Archives
-icon: fas fa-archive
+icon: lnr lnr-history
 order: 3
 ---
-

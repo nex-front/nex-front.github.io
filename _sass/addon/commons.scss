@@ -2,6 +2,7 @@
   The common styles
 */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 @mixin mode-toggle($dark-mode: false) {
   @if $dark-mode {
@@ -40,7 +41,7 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Noto Sans KR', 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 
 /* --- Typography --- */
@@ -676,7 +677,7 @@ $sidebar-display: "sidebar-display";
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
-      color: rgba(134, 133, 133, 99%);
+      color: rgba(69, 167, 238, 99%);
     }
   }
 
@@ -1482,7 +1483,7 @@ $sidebar-display: "sidebar-display";
   }
 
   .post-content {
-    font-size: 1.03rem;
+    font-size: 1rem;
   }
 
   footer > div.d-felx {
@@ -1496,7 +1497,7 @@ $sidebar-display: "sidebar-display";
     padding-left: calc((100% - #{$main-content-max-width}) / 2);
 
     > div.col-xl-8 {
-      max-width: 850px;
+      max-width: 1000px;
     }
   }
 
@@ -1575,6 +1576,8 @@ $sidebar-display: "sidebar-display";
         > a {
           width: 6.2rem;
           height: 6.2rem;
+          background: url('/logo.jpg');
+          background-size: contain;
 
           &.mx-auto {
             margin-left: 0 !important;
@@ -1705,7 +1708,7 @@ $sidebar-display: "sidebar-display";
 
   footer {
     padding-left: 0;
-    padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
+    padding-right: calc(100% - #{$sidebar-width-large} - 980px);
   }
 
   #back-to-top {
@@ -1716,14 +1719,27 @@ $sidebar-display: "sidebar-display";
 
 @media (min-width: 1920px) {
   #main > div.row {
-    padding-left: 190px;
+    padding-left: 100px;
   }
 
   #search-result-wrapper {
-    padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
+    padding-right: calc(100% - #{$sidebar-width-large} - 980px);
   }
 
   #panel-wrapper {
     margin-left: 41px;
   }
 }
+.gist-data {max-height: 400px;}
+.icon {
+  font-family: Linearicons-Free;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-link:before {content: "\e86b";}

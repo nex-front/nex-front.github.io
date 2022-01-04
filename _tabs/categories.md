@@ -1,6 +1,6 @@
 ---
 layout: categories
 title: Categories
-icon: fas fa-stream
+icon: lnr lnr-menu
 order: 1
 ---
