@@ -6,15 +6,30 @@ order: 2
 ---
 
 ## Javascript
-> Jquery  
+> 기본 필수등록 라이브러리  
+- Jquery
+- Vue
+- GSAP (Tweenmax)
 
 ```<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>```
 
-> Vue
-
 ```<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script> ```
 
+``` <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script> ```
+
+
 <br> 
+
+
+> 스크롤 모션관련 라이브러리
+- locomotive-scroll
+- ScrollTrigger
+
+``` <script type="text/javascript" src="https://unpkg.com/locomotive-scroll@3.2.6/dist/locomotive-scroll.js"></script> ```
+
+``` <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script> ```
+
+<br>
 
 > App.js (구축 Common Default type)
 >> 새창링크: [<i class="icon icon-link"></i> app.js](/resource/js/app.js){:target="_blank"}
