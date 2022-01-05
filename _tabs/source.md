@@ -11,11 +11,11 @@ order: 2
 - Vue
 - GSAP (Tweenmax)
 
-```<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>```
-
-```<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script> ```
-
-``` <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script> ```
+``` html 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+```
 
 
 <br> 
@@ -25,9 +25,26 @@ order: 2
 - locomotive-scroll
 - ScrollTrigger
 
-``` <script type="text/javascript" src="https://unpkg.com/locomotive-scroll@3.2.6/dist/locomotive-scroll.js"></script> ```
+``` html 
+<script type="text/javascript" src="https://unpkg.com/locomotive-scroll@3.2.6/dist/locomotive-scroll.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script> 
+```
 
-``` <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script> ```
+<br>
+
+
+> 스와이프 모션관련 라이브러리
+- Slick
+- Swiper
+
+``` html
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/js/swiper.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/css/swiper.min.css">	
+
+```
 
 <br>
 
