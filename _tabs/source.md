@@ -49,7 +49,7 @@ order: 2
 <br>
 
 > App.js (구축 Common Default type)
->> 새창링크: [<i class="icon icon-link"></i> app.js](/resource/js/app.js){:target="_blank"}
+>> 새창링크: [<i class="icon icon-link"></i> app.js](/guide/resources/js/app.js){:target="_blank"}
 
 <script src="https://gist.github.com/nex-front/74919d94aec1486dc1b6528a0b3edd75.js"></script>
 
@@ -78,40 +78,64 @@ order: 2
 
 ## HTML
 
+> Head 영역
 
 ``` html
 
-<div id="vue_container" style="visibility: hidden;" v-bind:style="'visibility: visible;'">
-...
-</div>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta name="description" content=""/>
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+
+<link rel="shortcut icon" href="/resources/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="/resources/css/style.css">	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
 
 ```
 
 
 ## CSS
 > reset.css
->> 새창링크: [<i class="icon icon-link"></i> reset.css](/resource/css/reset.css){:target="_blank"}
+>> 새창링크: [<i class="icon icon-link"></i> reset.css](/guide/resources/css/reset.css){:target="_blank"}
 
 <script src="https://gist.github.com/nex-front/5044f61bc9c77ea087699fafe615481c.js"></script>  
 
 <br>   
 
 >common.css
->> 새창링크: [<i class="icon icon-link"></i> common.css](/resource/css/common.css){:target="_blank"}
+>> 새창링크: [<i class="icon icon-link"></i> common.css](/guide/resources/css/common.css){:target="_blank"}
 
 <script src="https://gist.github.com/nex-front/c3dd44f31c90bf31cbc448cde8e8fa4a.js"></script>
 
 <br>
 
 >form.css
->> 새창링크: [<i class="icon icon-link"></i> form.css](/resource/css/form.css){:target="_blank"}
+>> 새창링크: [<i class="icon icon-link"></i> form.css](/guide/resources/css/form.css){:target="_blank"}
 
 <script src="https://gist.github.com/nex-front/cd4014258be3bab0c0d0fe10376b9c7c.js"></script>
 
 <br>
 
 >ui.css
->> 새창링크: [<i class="icon icon-link"></i> ui.css](/resource/css/ui.css){:target="_blank"}
+>> 새창링크: [<i class="icon icon-link"></i> ui.css](/guide/resources/css/ui.css){:target="_blank"}
 
 <script src="https://gist.github.com/nex-front/22371fb79eb6faa8c108c6bba88b8021.js"></script>
 
+### Download 
+---
+> ZIP (ver.1.0) 2022.01.10 : [<i class="icon icon-link"></i> guide.zip](/guide.zip){:target="_blank"}

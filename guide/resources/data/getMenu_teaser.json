@@ -1,0 +1,19 @@
+{
+    "prjName": "평촌 어바인퍼스트 더샵",
+    "s3URL":"https://bucket-apt.s3.ap-northeast-2.amazonaws.com/thesharp/terrace/web/",
+    "testURL":"thesharp-pyungch.newapt.kr",
+    "realURL":"thesharp-pyungch.co.kr",
+    "phoneNum": "1644.6699",
+    "gnbList": [    
+        {"krName": "사업안내", "url": "/pages/overview/overview.html", "open":true,
+            "subDepth": [
+                {"krName": "사업개요", "url": "/pages/overview/overview.html", "open":true},
+                {"krName": "브랜드소개", "url": "/pages/overview/brand.html", "open":true},
+                {"krName": "오시는길", "url": "/pages/overview/location.html", "open":true}
+            ]
+        },            
+        {"krName": "언론보도", "url": "/pages/board/news_list.html", "open":true},
+        {"krName": "이벤트", "url": "/pages/board/event.html", "open":false},
+        {"krName": "관심고객등록", "url": "/regist/regist.html", "open":true}
+    ]
+}

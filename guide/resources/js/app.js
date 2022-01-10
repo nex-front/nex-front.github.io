@@ -58,7 +58,7 @@ if(browser.toLowerCase().indexOf("msie 8")>0 || browser.toLowerCase().indexOf("m
     ns.GnbListData = ( function() {
         var _isLocal = true;
         var _isLoading = false;
-        var _localUrl = '/resources/data/getMenu_teaser.json';
+        var _localUrl = './resources/data/getMenu_teaser.json';
         var _serverUrl = '';
         var _url = _isLocal ? _localUrl : _serverUrl;
 
@@ -129,7 +129,7 @@ if(browser.toLowerCase().indexOf("msie 8")>0 || browser.toLowerCase().indexOf("m
         };
 
         var _initpageNumber = function() {      
-            _vue.obj.forEach((item, i) => {
+            _vue.obj.forEach(function(item, i){                
                 var children = item.subDepth;
                 if(item.url == pathName) {
                     _vue.localNum1 = i;                        

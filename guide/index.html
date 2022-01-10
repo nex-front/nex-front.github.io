@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta name="description" content=""/>
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+
+<link rel="shortcut icon" href="/resources/img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="/resources/css/style.css">	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+<script type="text/javascript" src="/resources/js/app.js"></script>
+</head>
+<body>
+<!-- wrap -->
+<div id="wrap">	
+	<div id="vue_container" style="visibility: hidden;" v-bind:style="'visibility: visible;'">
+		<header id="header">
+			<div class="header_con">
+				<h1>
+					<a href="/">
+						<img src="/resources/img/top_logo_main.png" v-if="localNum1 == undefined" v-bind:alt="prjName">
+						<img src="/resources/img/top_logo_sub.png" v-else v-bind:alt="prjName">
+					</a>
+				</h1>
+				<nav class="gnb">
+					<ul class="gnb_depth_1">							
+							<li v-for="(item, i) in obj" :key="i"><a href="javascript:;" v-bind:data-href="item.url" v-on:click.prevent="menuClick(item.url, item.open, item.isBlank)" :class="{ current : localNum1 == i }">{{item.krName}}</a> 
+							<ul class="gnb_depth_2">
+								<li v-for="(subItem, j) in item.subDepth" :key="j">									
+									<a href="javascript:;" v-bind:data-href="subItem.url" v-on:click.prevent="menuClick(subItem.url, subItem.open, subItem.isBlank)" :class="[ isCurrunt(subItem) ? 'current' : '', isRemote(subItem) ? 'recurrent' : '' ]">{{subItem.krName}}</a>
+								</li>
+							</ul>
+						</li>						
+					</ul>
+				</nav>	
+				<span class="header_util">
+					<img src="/resources/img/top_phone_main.png" v-bind:alt="phoneNum" v-if="localNum1 == undefined">
+					<img src="/resources/img/top_phone_sub.png" v-bind:alt="phoneNum" v-else>
+				</span>
+			</div>
+			<div id="navbg"></div>
+		</header>
+		<!-- //header -->
+
+        <div class="layout_main" style="height: 100vh; background: #222; display: flex; justify-content: center; align-items: center;">
+			<span style="color: #fff; font-size: 3rem;">메인페이지</span>
+        </div>		
+
+        <footer>         
+            <section class="footer_info">
+                <span class="gotop"><a href="#"><img src="/resources/img/go_top.png" alt=""></a></span>
+                <img src="/resources/img/footer.png" alt="">    
+                <div class="right_util">
+                    <div class="footer_etc"><a href="javascript:LayerBox.open('/privacy.php');">개인정보처리방침</a></div>				
+                </div>
+                <!-- //right_util -->
+            </section>
+        </footer>        
+    </div>
+	<!-- //vue_container -->
+</div>    
+<!-- //wrap -->
+
+<script type="text/javascript">
+
+	(function (ns) {
+		$(function(){		
+			ns.GnbList.init();
+		});
+	})(APP || {});	
+
+</script>
+
+</body>
+</html>
+

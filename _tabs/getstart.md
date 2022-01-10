@@ -1,5 +1,5 @@
 ---
-title: About
+title: Getting Started
 icon: lnr lnr-leaf
 order: 4
 ---
