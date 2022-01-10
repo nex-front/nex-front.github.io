@@ -49,7 +49,7 @@ order: 2
 <br>
 
 > App.js (구축 Common Default type)
->> 새창링크: [<i class="icon icon-link"></i> app.js](/guide/resources/js/app.js){:target="_blank"}
+>> <i class="icon icon-link"></i> app.js](/guide/resources/js/app.js){:target="_blank"}
 
 <script src="https://gist.github.com/nex-front/74919d94aec1486dc1b6528a0b3edd75.js"></script>
 
@@ -111,28 +111,28 @@ order: 2
 
 ## CSS
 > reset.css
->> 새창링크: [<i class="icon icon-link"></i> reset.css](/guide/resources/css/reset.css){:target="_blank"}
+>> <i class="icon icon-link"></i> reset.css
 
 <script src="https://gist.github.com/nex-front/5044f61bc9c77ea087699fafe615481c.js"></script>  
 
 <br>   
 
 >common.css
->> 새창링크: [<i class="icon icon-link"></i> common.css](/guide/resources/css/common.css){:target="_blank"}
+>> <i class="icon icon-link"></i> common.css
 
 <script src="https://gist.github.com/nex-front/c3dd44f31c90bf31cbc448cde8e8fa4a.js"></script>
 
 <br>
 
 >form.css
->> 새창링크: [<i class="icon icon-link"></i> form.css](/guide/resources/css/form.css){:target="_blank"}
+>> <i class="icon icon-link"></i> form.css
 
 <script src="https://gist.github.com/nex-front/cd4014258be3bab0c0d0fe10376b9c7c.js"></script>
 
 <br>
 
 >ui.css
->> 새창링크: [<i class="icon icon-link"></i> ui.css](/guide/resources/css/ui.css){:target="_blank"}
+>> <i class="icon icon-link"></i> ui.css
 
 <script src="https://gist.github.com/nex-front/22371fb79eb6faa8c108c6bba88b8021.js"></script>
 
