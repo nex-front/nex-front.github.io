@@ -106,7 +106,7 @@ blockquote {
   padding-left: 1rem;
   color: var(--blockquote-text-color);
 }
-
+blockquote strong {color: #000 !important; font-weight: 700 !important;}
 kbd {
   margin: 0 0.3rem;
 }
